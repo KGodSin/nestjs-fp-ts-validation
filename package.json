@@ -1,0 +1,30 @@
+{
+  "name": "nestjs-fp-ts-validation",
+  "version": "0.0.1",
+  "description": "nestjs-fp-ts-validation",
+  "main": "lib/index.ts",
+  "repository": "https://github.com/KGodSin/nestjs-fp-ts-validation.git",
+  "author": "hyukkim",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "dependencies": {
+    "@nestjs/common": "^7.6.17",
+    "@nestjs/core": "^7.6.17",
+    "fp-ts": "^2.10.5",
+    "fp-ts-validation": "https://github.com/KGodSin/fp-ts-validation.git",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.23",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "ts-node": "^9.1.1"
+  }
+}
