@@ -2,7 +2,7 @@
   "name": "nestjs-fp-ts-validation",
   "version": "0.0.1",
   "description": "nestjs-fp-ts-validation",
-  "main": "lib/index.ts",
+  "main": "lib/index.js",
   "repository": "https://github.com/KGodSin/nestjs-fp-ts-validation.git",
   "author": "hyukkim",
   "license": "MIT",
